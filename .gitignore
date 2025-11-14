@@ -1,0 +1,40 @@
+# 排除所有文件（默认）
+*
+
+# 只保留以下文件
+!.gitignore
+!README.md
+!*.vsix
+!LICENSE
+
+# 排除开发文件
+node_modules/
+out/
+dist/
+src/
+.vscode-test/
+.DS_Store
+*.log
+*.map
+package.json
+package-lock.json
+tsconfig.json
+webpack.config.js
+*.bat
+*.js
+*.ts
+*.md
+!README.md
+修复记录.md
+修改版识别-最终方案.md
+卡密登录功能说明.md
+启动测试.bat
+如何查看日志.md
+插件检测优化说明.md
+插件版本识别说明.md
+植入/
+测试指南.md
+界面优化说明.md
+登录后重新加载窗口说明.md
+登录逻辑更新说明.md
+resources/
